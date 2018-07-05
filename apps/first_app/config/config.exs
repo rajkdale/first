@@ -32,7 +32,7 @@ use Mix.Config
 config :first_app, FirstApp.Repo,
   adapter: Ecto.Adapters.Postgres,
   database: "first_app",
-  username: "raj",
+  username: "rajendra.dale",
   password: ""
 
 config :first_app, ecto_repos: [FirstApp.Repo]

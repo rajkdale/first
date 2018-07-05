@@ -12,4 +12,8 @@ defmodule FirstApp.EventQueries do
       Repo.all(query)
     end
 
+    def get_by_id(id) do
+      Repo.get(Events, id)
+    end
+
 end
